@@ -10,7 +10,7 @@ enum class Op {
   // Load operand into accumulator.
   LDAimm = 0x0A9,
 
-  // JAMx instructions freeze the CPU. 
+  // JAMx instructions freeze the CPU.
   JAM0 = 0x02,
   JAM1 = 0x12,
   JAM2 = 0x22,
